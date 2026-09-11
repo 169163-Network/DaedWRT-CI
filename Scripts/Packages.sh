@@ -52,6 +52,10 @@ UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "sing-box luci-app-homeproxy"
 
 
+UPDATE_PACKAGE "airpi3000m" "LianXia233/luci-app-airpi3000m-fancontrol" "main"
+UPDATE_PACKAGE "h5000m" "LianXia233/luci-app-h5000m-netmode" "main"
+UPDATE_PACKAGE "qmodem-generic" "LianXia233/luci-app-qmodem-generic" "main"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
